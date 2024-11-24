@@ -1,0 +1,2 @@
+/root/OS-Course-Lab/Lab2/build/kernel.img
+/root/OS-Course-Lab/Lab2/build/kernel8.img

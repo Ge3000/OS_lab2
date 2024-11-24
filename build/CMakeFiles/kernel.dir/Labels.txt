@@ -1,0 +1,13 @@
+# Target labels
+ kernel
+# Source files and their labels
+/root/OS-Course-Lab/Lab2/build/CMakeFiles/kernel
+/root/OS-Course-Lab/Lab2/build/CMakeFiles/kernel.rule
+/root/OS-Course-Lab/Lab2/build/CMakeFiles/kernel-complete.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-install.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-mkdir.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-download.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-update.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-patch.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-configure.rule
+/root/OS-Course-Lab/Lab2/build/kernel-prefix/src/kernel-stamp/kernel-build.rule

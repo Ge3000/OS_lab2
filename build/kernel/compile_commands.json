@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/arch/aarch64/main.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/arch/aarch64/main.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/main.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/arch/aarch64/irq/pgfault.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/arch/aarch64/irq/pgfault.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/irq/pgfault.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/arch/aarch64/mm/page_table.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/arch/aarch64/mm/page_table.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/mm/page_table.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/lib/rbtree.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/lib/rbtree.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/lib/rbtree.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/buddy.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/buddy.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/buddy.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/slab.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/slab.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/slab.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/kmalloc.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/kmalloc.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/kmalloc.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/mm.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/mm.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/mm.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/pgfault_handler.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/pgfault_handler.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/pgfault_handler.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/mm/vmspace.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/mm/vmspace.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/mm/vmspace.c"
+},
+{
+  "directory": "/root/OS-Course-Lab/Lab2/build/kernel",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc -DCHCORE -DCHCORE_ARCH=\\\"aarch64\\\" -DCHCORE_ARCH_AARCH64 -DCHCORE_ASLR -DCHCORE_CROSS_COMPILE=\\\"aarch64-linux-gnu-\\\" -DCHCORE_KERNEL_ENABLE_QEMU_VIRTIO_NET -DCHCORE_KERNEL_PM_USAGE_TEST -DCHCORE_PLAT=\\\"raspi3\\\" -DCHCORE_PLAT_RASPI3 -DCHCORE_SUBPLAT=\\\"\\\" -DLOG_LEVEL=1 -I/root/OS-Course-Lab/Lab2/kernel/include -I/root/OS-Course-Lab/Lab2/kernel/user-include -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64 -I/root/OS-Course-Lab/Lab2/kernel/include/arch/aarch64/plat/raspi3 -I/root/OS-Course-Lab/Lab2/kernel/arch/aarch64/boot/raspi3/include  -O3 -DNDEBUG   -O3 -Wall -nostdinc -ffreestanding -march=armv8-a+nofp -fno-pic -fno-pie -mcmodel=large -o CMakeFiles/kernel.img.dir/tests/runtime/tests.c.obj   -c /root/OS-Course-Lab/Lab2/kernel/tests/runtime/tests.c",
+  "file": "/root/OS-Course-Lab/Lab2/kernel/tests/runtime/tests.c"
+}
+]
